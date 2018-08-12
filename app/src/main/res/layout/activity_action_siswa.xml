@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/edt_value_name"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_value_address"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/img_value_profile"
+            android:layout_height="100dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_update"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content"
+            android:text="update"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:background="@color/colorAccent"
+            android:id="@+id/btn_delete"
+            android:layout_height="wrap_content"
+            android:text="delete"/>
+        </LinearLayout>
+</LinearLayout>
